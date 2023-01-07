@@ -24,13 +24,18 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/textform">
+                  TextForm
+                </Link>
+              </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            {/* <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+              <label class="form-check-label" for="flexSwitchCheckChecked">
+                Eanble Darkmode
+              </label>
+            </div> */}
           </div>
         </div>
       </nav>
